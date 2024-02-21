@@ -1,5 +1,5 @@
 .nav {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 70px;
     width: 100%;
     display: flex;
@@ -18,26 +18,45 @@
     
 }
 .search {
-    width:35%;
-    height:40px;
+    width: 40%;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
     margin-left: 30px;
-    margin-top: 15px;
     border: 1px solid grey;
-    background-color: white;
-
 }
 .text {
-    display: flex;
-    margin-top: -10px;
+    margin-left: 20px;
+    margin-top: -7px;
 }
-.text > p:nth-child(1){
-    margin-left: 10px;
+.text1{
+margin-top: 7px;
+margin-left: 10px;
 }
-.text > p:nth-child(2) {
-    margin-left: 10px;
-}
-.text > input {
-    width: 300px;
-    outline: none;
+.text1 > input {
     border: none;
+    outline: none;
+
+    width: 500px;
+    height: 20px;
+
+}
+.icons{
+    display: flex;
+    width:10%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+
+}
+.profile > h6 {
+    margin-top: 5px;
+}
+.wishlist > h6 {
+    margin-top: 5px;
+}
+.bag > h6 {
+    margin-top: 5px;
 }

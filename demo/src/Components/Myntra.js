@@ -14,13 +14,31 @@ const Myntra = () => {
                     <h3>Beauty</h3>
                     <h3>Studio</h3>
                 </div>
-                <div className='search'>
-                    <div className='text'>
+                <div className="search">
+                    <div className="text">
                         <p><i class="fa-solid fa-magnifying-glass"></i></p>
-                        <p><input type='text' placeholder='Search for Products,Brands & more' /></p>
+                    </div>
+                    <div className="text1">
+                        <input placeholder="Search for Products, Brand & More..."/>
+                    </div>
+                </div>
+
+                <div className="icons">
+                    <div className="profile">
+                        <i class="fa-solid fa-user"></i>
+                        <h6>Profile</h6>
+                    </div>
+                    <div className="wishlist">
+                        <i class="fa-solid fa-heart"></i>
+                        <h6>WishList</h6>
+                    </div>
+                    <div className="bag">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h6>Bag</h6>
                     </div>
 
                 </div>
+                
             </div>
 
         </>

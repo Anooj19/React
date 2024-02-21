@@ -1,0 +1,813 @@
+.nav {
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid red; */
+    top: 0;
+    left: 0;
+    position: sticky;
+    background-color: white;
+}
+.logo {
+    display: flex;
+    margin-left: 50px;
+}
+.logo > h1 {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.logo > img {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.menu {
+    width: 30%;
+    height:50px;
+    /* border: 1px solid green; */
+    margin-left: 300px;
+    justify-content: space-around;
+}
+.button{
+    width: 10%;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.button > button {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.image {
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-1920x1184.jpg");
+    background-size: contain;
+    border: 1px solid white;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+.text {
+    color: white;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.text > h3 {
+    font-size: 25px;
+}
+.text > p {
+    font-size: 20px;
+}
+.text > h1 {
+    font-size: 70px;
+}
+
+
+.symbol {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.cube {
+    width: 30%;
+}
+.cube > img {
+    width:10%;
+    height: 100px;
+}
+
+.return {
+    width: 30%;
+}
+.return > img {
+    width: 10%;
+    height: 100px;
+}
+.doller {
+    width: 30%;
+}
+.doller > img {
+    width: 10%;
+    height: 100px;
+}
+.button1 {
+    width: 30%;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-left: 120px;
+}
+.button1 > button {
+    width: 100%;
+    height: 40px;
+    font-size: medium;
+    color: white;
+    background-color: black;
+}
+.grey {
+    width: 100%;
+    height: 1250px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    
+}
+.image2{
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.leftimage {
+    width: 48%;
+    height: 350px;
+    /* border: 1px solid blue; */
+    margin-top: 30px;
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTU3FhNBVzcKZ4-bVRU-2NqiqmnwYDxe3PbMOhqv-phxYy4CX_s");
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+.leftimage > h1 {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.leftimage > h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+.button2{
+    width: 40%;
+    margin-left: 20px;
+}
+.button2 > button {
+    width: 120%;
+    height: 50px;
+    background-color: rgb(55, 51, 51);
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.rightimage {
+    width: 48%;
+    height: 350px;
+    /* border: 1px solid blue; */
+    margin-top: 30px;
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSoFnK_K-TFYgVmPF15bGX_ghX7_fniLLjOvNSw-_QmVWTPeGzt");
+    background-size: cover;
+    color: black;
+    text-align: left;
+}
+.rightimage > h1 {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.rightimage > h3 {
+    text-align: left;
+    margin-left:  20px;
+}
+.cloths {
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+
+}
+.cloths1 {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.designer {
+    width: 22%;
+    height: 550px;
+    /* border: 1px solid red; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-872x667.jpg");
+    background-size: cover;
+}
+.bedside {
+    width: 22%;
+    height: 550px;
+    /* border: 1px solid red; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-4-872x581.jpg");
+    background-size: cover;
+
+}
+.badroom{
+    width: 22%;
+    height: 550px;
+    /* border: 1px solid red; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-872x569.jpg");
+    background-size: cover;
+
+}
+.sewing {
+    width: 22%;
+    height: 550px;
+    /* border: 1px solid red; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-872x571.jpg");
+    background-size: cover;
+
+}
+.content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content > div {
+    width: 22%;
+    height: 150px;
+    /* border: 1px solid red; */
+}
+.content > div > p {
+    font-size :20px
+}
+.box5 {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid green; */
+    margin-top: 20px;
+}
+.content2{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.range {
+    width: 20%;
+    height: 300px;
+    /* border: 1px solid blueviolet */
+}
+.range > h2 {
+    margin-top: 50px;
+    color: grey;
+}
+.range > h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.range > h4 {
+    font-size: 20px;
+}
+.line {
+    width:80%;
+    margin: auto;
+    margin-top: -25px;
+    border: 1px solid black;
+}
+.reels {
+    width: 20%;
+    height: 300px;
+    /* border: 1px solid blueviolet; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-618x412.jpg");
+    background-size: cover;
+    
+
+}
+.join {
+    width: 20%;
+    height: 300px;
+    /* border: 1px solid blueviolet; */
+    background-color: #E7D8D6;
+
+}
+.join > h4 {
+    color: grey;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.join > h1 {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.question {
+    width: 20%;
+    height: 300px;
+    /* border: 1px solid blueviolet */
+
+}
+.question > h4 {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.question > p {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+}
+.question > button {
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(55, 51, 51);
+    margin-top: 12px;
+}
+.our {
+    width: 100%;
+    height: 60px;
+}
+.our > h1 {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 40px;
+}
+.shipping {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.shipping1{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.brown{
+    width: 48% ;
+    height: 80px ;
+    /* border: 1px solid red; */
+
+}
+.shipping2 > h3 {
+    margin-top: 3px;
+}
+.shipping2 {
+    display: flex;
+    justify-content: space-between;
+}
+.gold{
+    width: 100%;
+    height: 10px;
+    background-color: #E9E9E9;
+}
+.gold1 {
+    width: 69%;
+    height: 10px;
+    margin-top: -26px;
+    background-color: #B79B6C;
+}
+.brown1 {
+
+    width: 48% ;
+    height: 80px ;
+    /* border: 1px solid red; */
+}
+.shipping3{
+    display: flex;
+    justify-content: space-between;
+}
+.shipping3 > h3 {
+    margin-top: 3px;
+}
+.gold2{
+    width: 100%;
+    height: 10px;
+    background-color: #E9E9E9;
+}
+.gold3{
+    width: 69%;
+    height: 10px;
+    margin-top: -26px;
+    background-color: #B79B6C;
+}
+.section2 {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.shipping4{
+    width: 48%;
+    height: 80px;
+    /* border: 1px solid red; */
+
+}
+.shipping5{
+    width: 48%;
+    height: 80px;
+    /* border: 1px solid red; */
+
+}
+.brown2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.gold4 {
+    width: 100%;
+    height: 10px;
+    /* border: 1px solid red; */
+    background-color: #E9E9E9;
+
+    
+}
+.gold5 {
+    width: 64%;
+    height: 10px;
+    /* border: 1px solid red; */
+    margin-top: -27px;
+    background-color: #B79B6C;
+
+
+}
+.brown3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.gold6 {
+    width: 100%;
+    height: 10px;
+    background-color: #E9E9E9;
+
+
+}
+.gold7 {
+    width: 87%;
+    height: 10px;
+    margin-top: -27px;
+    background-color: #B79B6C;
+
+}
+.section5 {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.box8 {
+    width: 48%;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.box9 {
+    width: 48%;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.content5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.content6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+
+}
+.gold8 {
+    width: 100%;
+    height: 10px;
+    background-color: #E9E9E9;
+}
+.gold9 {
+    width: 70%;
+    height: 10px;
+    margin-top: -27px;
+    background-color: #B79B6C;
+
+
+}
+.gold10 {
+    width: 100%;
+    height: 10px;
+    background-color: #E9E9E9;
+
+}
+.gold11 {
+    width: 95%;
+    height: 10px;
+    margin-top: -27px;
+    background-color: #B79B6C;
+
+}
+.bcolor {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    background-color: #33363B;
+}
+.btext {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bcolor1 {
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid red; */
+    
+}
+.bcolor2 {
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid red; */
+
+}
+.bcolor3 {
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid red; */
+
+}
+.bcolor4 {
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid red; */
+
+}
+.bcolor1 {
+    text-align: center;
+}
+.bcolor1 > h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 18px;
+}
+.bcolor1 > h1 > i {
+    color: #B79B6C;
+    font-size: 50px;
+}
+.bcolor1 > h5 {
+    color: white;
+    font-size: 20px;
+    
+}
+.bcolor2 {
+    text-align: left;
+}
+.bcolor2 > h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 18px;
+
+}
+.bcolor2 > h1 > i {
+    color: #B79B6C;
+    font-size: 50px;
+}
+.bcolor2 > h5 {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.bcolor3 {
+    text-align: left;
+}
+.bcolor3 > h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 30px;
+
+}
+.bcolor3 > h1 > i {
+    color: #B79B6C;
+    font-size: 50px;
+}
+.bcolor3 > h5 {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.bcolor4 {
+    text-align: left;
+}
+.bcolor4 > h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 18px;
+
+}
+.bcolor4 > h1 > i {
+    color: #B79B6C;
+    font-size: 50px;
+}
+.bcolor4 > h5 {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.customerreview {
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 18px;
+}
+.customerreview > h1 {
+    margin-top: 40px;
+}
+.ratingbox {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.ratingbox-inner {
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ratingbox1 {
+    width: 23%;
+    height: 350px;
+    /* border: 1px solid greenyellow; */
+    background-color: #EFEFEF;
+}
+.ratingbox2 {
+    width: 23%;
+    height: 350px;
+    /* border: 1px solid greenyellow; */
+}
+.ratingbox3 {
+    width: 23%;
+    height: 350px;
+    /* border: 1px solid greenyellow; */
+}
+.ratingbox4 {
+    width: 23%;
+    height: 350px;
+    /* border: 1px solid greenyellow; */
+}
+.star1 {
+    width: 70%;
+    height: 25px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 18px;
+    color: #B79B6C;
+    font-style: bold;
+    
+}
+.star1 > i {
+    margin-left: 12px;
+}
+.ratingbox1 > h1 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 31px;
+    margin-top: 20px;
+}
+.ratingbox1 > p {
+    text-align: left;
+    margin-left: 31px;
+    width: 80%;
+}
+.ratingbox1 > h2 {
+    text-align: left;
+    margin-left: 31px;
+    font-size: 18px;
+}
+.threepics {
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+    background-color: #EFEFEF;
+
+}
+.threepics-inner {
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.threepics1 {
+    width: 31%;
+    height: 250px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-4-872x581.jpg");
+    background-size: cover;
+}
+.threepics1:hover {
+    opacity: 0.6;
+}
+.threepics2 {
+    width: 31%;
+    height: 250px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-1920x1184.jpg");
+    background-size: cover;
+
+}
+.threepics2:hover {
+    opacity: 0.6;
+}
+.threepics3 {
+    width: 31%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-1920x1445.jpg");
+    background-size: cover;
+}
+.threepics3:hover {
+    opacity: 0.6;
+}
+.sixpics {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.sixpics1 {
+    width: 16.6%;
+    height: 250px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/01.jpg");
+    background-size: cover;
+}
+.sixpics2 {
+    width: 16.6%;
+    height: 250px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/02.jpg");
+    background-size: cover;
+}
+.sixpics3 {
+    width: 16.6%;
+    height: 250px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/03.jpg");
+    background-size: cover;
+}
+.sixpics4 {
+    width: 16.6%;
+    height: 250px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-618x412.jpg");
+    background-size: cover;
+}
+.sixpics5 {
+    width: 16.6%;
+    height: 250px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-2-1920x1280.jpg");
+    background-size: cover;
+}
+.sixpics6 {
+    width: 16.6%;
+    height: 250px;
+    background-image: url("https://mobirise.com/extensions/shopm5/fabric-store/assets/images/mbr-872x569.jpg");
+    background-size: cover;
+}
+.interior {
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    margin-top: 80px;
+}
+.interior-inner {
+    width: 80%;
+    height: 400px;
+    border: 1px solid rebeccapurple;
+    margin: auto;
+    
+}
+.interior1-inner {
+    width: 32%;
+    height: 400px;
+    border: 1px solid rebeccapurple;
+}
